@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Image gallery</title>
+  </head>
+  <body class="font-riot">
+    <!-- div container -->
+    <div class="flex flex-col items-center justify-center my-20 gap-6">
+      <!-- heading -->
+      <h1 class="text-xl md:text-3xl uppercase font-semibold tracking-wider">
+        image gallery and infite scroll
+      </h1>
+      <!-- Loader div -->
+      <div id="loader" class="bg-white bg-opacity-80 fixed inset-0">
+        <img
+          src="./image/Pulse-1s-100px.svg"
+          alt="Loading"
+          class="fixed top-[45%] left-[45%]"
+        />
+      </div>
+
+      <!-- image container -->
+      <div
+        id="imageContainer"
+        class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 p-6 m-4 md:mx-20"
+      >
+        <!-- Images -->
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
